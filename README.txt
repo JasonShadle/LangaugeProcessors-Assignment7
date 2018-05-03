@@ -1,0 +1,4 @@
+Assignment: In this project you are asked to write a small compiler for a very simple C-like language using the Top-Down (Recursive Descent) parsing method. The simplified grammar rules are given in the next page of this assignment. Your compiler reads a program from a file. The input file name is given from the command line thus: ./csucc sample.c Your compiler csucc rends the file sample.c, checks its syntax, and generates the corresponding SIC/ XE assembly code into the file sample.asm. To reduce your work, you may assume that there is at least a space character between consecutive tokens. Furthermore, you only need to implement what the simplified grammar specifies. That is, your program does not need to support explicit declaration, conditional and iteration statements, etc. 
+
+Instructions:
+Write the program in the input.txt file (sample program is already included). The output will be placed in the output.txt file, clearing what was there previously.

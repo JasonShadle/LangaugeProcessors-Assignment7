@@ -1,0 +1,27 @@
+LDA #5
+STA XLDA #4
+MUL X
+STA temp0
+LDA temp0
+STA Y
+LDA X
+MUL #2
+STA temp0
+LDA Y
+ADD X
+STA temp1
+LDA temp1
+DIV #5
+STA temp2
+LDA temp0
+SUB temp2
+STA temp3
+LDA temp3
+STA Z
+X RESW 1
+Y RESW 1
+Z RESW 1
+temp0 RESW 1
+temp1 RESW 1
+temp2 RESW 1
+temp3 RESW 1
