@@ -12,3 +12,6 @@ This is inefficient for memory and time especially if the input was scaled much 
 should reuse the current ones needed and determined either the maximum I would need for an equation, 
 or figure out a way to dynamically calculate that as I go. Looking back it wouldn't be that hard, but 
 I was in a time crunch.
+
+Additionally, I should have made the postfix and printLineCode methods into their own files to clean 
+up the file and just import and call them as needed.
